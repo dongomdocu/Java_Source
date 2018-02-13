@@ -8,6 +8,8 @@ public class BankingMain {
 	
 	public static void main(String[] args) {
 		
+		System.out.println("git 테스트를 위하여 처음 메시지를 출력 합니다.");
+		
 		DepositAccount[] objDP = new DepositAccount[MAXCOUNT];
 		SavingAccount[] objSA = new SavingAccount[MAXCOUNT];
 		Loan[] objLoan = new Loan[MAXCOUNT];
